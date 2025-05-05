@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="خِدْماتي">
+    <meta name="twitter:description" content="حلول سريعة وموثوقة لجميع احتياجاتك مع أفضل الفنيين المحترفين">
+    <meta name="twitter:image" content="https://al-shibani.github.io/project/icone.png">
+    <link rel="icon" type="image/jpg" href="iccone.png">
+    <title>خِدْماتي - منصة الخدمات العامة</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="logo-container">
+                <img src="icone.png" class="logo-img">
+                <span class="logo">خِدْماتي</span>
+            </a>
+            <div class="nav-links">
+                <a href="#services">الخدمات</a>
+                <a href="#how-it-works">كيف يعمل</a>
+                <a href="#providers">مقدمو الخدمات</a>
+                <a href="#" id="login-btn">تسجيل الدخول</a>
+                <a href="#" id="register-btn" class="btn">إنشاء حساب</a>
+            </div>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- القائمة الجانبية للجوال -->
+    <div class="mobile-menu">
+        <div class="close-btn">
+            <i class="fas fa-times"></i>
+        </div>
+        <a href="#services">الخدمات</a>
+        <a href="#how-it-works">كيف يعمل</a>
+        <a href="#providers">مقدمو الخدمات</a>
+        <a href="#" id="mobile-login-btn">تسجيل الدخول</a>
+        <a href="#" id="mobile-register-btn" class="btn">إنشاء حساب</a>
+    </div>
+
+    <!-- قسم الهيرو -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>حلول سريعة وموثوقة لجميع احتياجاتك</h1>
+                <p>ابحث عن أفضل الفنيين والمهنيين لجميع متطلباتك في أي مكان</p>
+                <a href="#services" class="btn btn-large">اطلب خدمة الآن</a>
+            </div>
+            <div class="hero-image">
+                <img src="khkh.png" alt="خدمات متكاملة">
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم الخدمات -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">خدماتنا</h2>
+            <div class="services-grid">
+                <div class="service-card" data-service="electricity">
+                    <div class="service-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>كهرباء</h3>
+                    <p>إصلاحات كهربائية وتركيبات لجميع الأماكن</p>
+                </div>
+                <div class="service-card" data-service="solar-energy">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>طاقة شمسية</h3>
+                    <p>تركيب أنظمة الطاقة الشمسية وصيانتها</p>
+                </div>
+                <div class="service-card" data-service="plumbing">
+                    <div class="service-icon">
+                        <i class="fas fa-faucet"></i>
+                    </div>
+                    <h3>سباكة</h3>
+                    <p>إصلاح تسريبات المياه وتركيبات السباكة</p>
+                </div>
+                <div class="service-card" data-service="carpentry">
+                    <div class="service-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>نجارة</h3>
+                    <p>إصلاح الأثاث وتركيبات الخشب للمحلات والمنازل</p>
+                </div>
+                <div class="service-card" data-service="programming">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>برمجة</h3>
+                    <p>حل مشاكل التقنية وبرمجة الأجهزة للشركات والأفراد</p>
+                </div>
+                <div class="service-card" data-service="cleaning">
+                    <div class="service-icon">
+                        <i class="fas fa-broom"></i>
+                    </div>
+                    <h3>تنظيف</h3>
+                    <p>خدمات تنظيف للمنازل والمحلات والمكاتب</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- كيف يعمل التطبيق -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2 class="section-title">كيف يعمل التطبيق</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>اختر الخدمة</h3>
+                        <p>حدد نوع الخدمة التي تحتاجها من قائمة الخدمات المتاحة</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>صف المشكلة</h3>
+                        <p>أدخل تفاصيل المشكلة ويمكنك إرفاق صور إذا لزم الأمر</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>حدد موقعك</h3>
+                        <p>اختر موقعك (منزل، محل، مكتب...) ليتم عرض الفنيين المتاحين</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>احصل على الخدمة</h3>
+                        <p>اختر الفني المناسب وحدد الموعد لتحصل على الخدمة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم مقدمو الخدمات -->
+    <section id="providers" class="providers">
+        <div class="container">
+            <h2 class="section-title">مقدمو الخدمات</h2>
+            <div class="providers-grid" id="providers-container">
+                <!-- سيتم ملؤه بواسطة JavaScript -->
+            </div>
+            <div class="view-more">
+                <a href="#" class="btn">عرض المزيد</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- نموذج طلب الخدمة (مخفى بشكل افتراضي) -->
+    <div id="service-request-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>طلب خدمة جديدة</h2>
+            <form id="service-request-form">
+                <input type="hidden" id="service-type">
+                <div class="form-group">
+                    <label for="location-type">نوع المكان</label>
+                    <select id="location-type" required>
+                        <option value="home">منزل</option>
+                        <option value="shop">محل تجاري</option>
+                        <option value="pharmacy">صيدلية</option>
+                        <option value="restaurant">مطعم</option>
+                        <option value="office">مكتب</option>
+                        <option value="other">أخرى</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="problem-description">وصف المشكلة</label>
+                    <textarea id="problem-description" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="problem-images">إرفاق صور (اختياري)</label>
+                    <input type="file" id="problem-images" multiple accept="image/*">
+                </div>
+                <div class="form-group">
+                    <label for="location">الموقع</label>
+                    <input type="text" id="location" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-date">تاريخ الخدمة</label>
+                    <input type="date" id="service-date" required>
+                </div>
+                <div class="form-group">
+                    <label for="service-time">وقت الخدمة</label>
+                    <input type="time" id="service-time" required>
+                </div>
+                <button type="submit" class="btn">إرسال الطلب</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- نموذج تسجيل الدخول (مخفى بشكل افتراضي) -->
+    <div id="login-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>تسجيل الدخول</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">رقم الموبايل</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">كلمة المرور</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn">تسجيل الدخول</button>
+                <p class="form-footer">ليس لديك حساب؟ <a href="#" id="show-register">إنشاء حساب</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- نموذج إنشاء حساب (مخفى بشكل افتراضي) -->
+    <div id="register-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>إنشاء حساب جديد</h2>
+            <form id="register-form" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="register-user-type">نوع المستخدم</label>
+                    <select id="register-user-type" required>
+                        <option value="client">عميل</option>
+                        <option value="provider">مقدم خدمة</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="register-name">الاسم الكامل</label>
+                    <input type="text" id="register-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-phone">رقم الموبايل</label>
+                    <input type="tel" id="register-phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">كلمة المرور</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <div id="provider-fields" style="display: none;">
+                    <div class="form-group">
+                        <label for="register-specialty">التخصص</label>
+                        <select id="register-specialty">
+                            <option value="electricity">كهرباء</option>
+                            <option value="solar-energy">طاقة شمسية</option>
+                            <option value="plumbing">سباكة</option>
+                            <option value="carpentry">نجارة</option>
+                            <option value="programming">برمجة</option>
+                            <option value="cleaning">تنظيف</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-experience">سنوات الخبرة</label>
+                        <input type="number" id="register-experience" min="0">
+                    </div>
+                    <div class="form-group">
+                        <label for="provider-image">صورة شخصية (اختياري)</label>
+                        <input type="file" id="provider-image" accept="image/*">
+                        <small class="form-text">سيتم عرض هذه الصورة للعملاء عند طلب الخدمة</small>
+                    </div>
+                </div>
+                <button type="submit" class="btn">إنشاء حساب</button>
+                <p class="form-footer">لديك حساب بالفعل؟ <a href="#" id="show-login">تسجيل الدخول</a></p>
+            </form>
+        </div>
+    </div>
+
+    <!-- تذييل الصفحة -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>عن التطبيق</h3>
+                    <p>منصة متكاملة تربط بين العملاء ومقدمي الخدمات بسهولة وسرعة لجميع الأماكن والاحتياجات</p>
+                </div>
+                <div class="footer-section">
+                    <h3>اتصل بنا</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> 967739548054</li>
+                        <li><i class="fas fa-envelope"></i> info@x-linky.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="https://www.x-linky.com" target="_blank" class="developer-link">
+                    <span>طور بواسطة <span class="name_co" style="border-bottom: 1px solid #fff;">XLinkY</span></span>
+                    <svg width="8" height="8" viewBox="0 0 24 24" style="color: white;"></svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
