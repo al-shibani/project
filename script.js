@@ -34,15 +34,15 @@ const providersData = [
     },
     {
         id: 5,
-        name: "علي حسن",
+        name: "خالد عمر الحسني",
         specialty: "برمجة",
         experience: 8,
         rating: 4.9,
-        image: "mmm.jpeg"
+        image: "khalid.jpg"
     },
     {
         id: 6,
-        name: "محمد الشسياني",
+        name: "محمد مختار الشسياني",
         specialty: "طاقة شمسية",
         experience: 12,
         rating: 5.0,
