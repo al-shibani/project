@@ -38,7 +38,7 @@ const providersData = [
         specialty: "برمجة",
         experience: 8,
         rating: 4.9,
-        image: "khalid.jpg"
+        image: "khalid.png"
     },
     {
         id: 6,
